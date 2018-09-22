@@ -1,7 +1,7 @@
 {
   "name": "notes-board",
   "version": "0.1.0",
-  "description": "Example Node.js MVC Application",
+  "description": "Movie Application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,24 +10,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jameskolce/notes-board.git"
+    "url": "git+https://github.com/michelle4654/movie-project.git"
   },
-  "author": "James Kolce <contact@jameskolce.com>",
+  "author": "Michelle Victora <michelle4654@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jameskolce/notes-board/issues"
+    "url": "https://github.com/michelle4654/movie-project/issues"
   },
-  "homepage": "https://github.com/jameskolce/notes-board#readme",
+  "homepage": "https://github.com/michelle4654/movie-project#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.1.2",
+    "browserslist": "^3.2.8",
     "dotenv": "^2.0.0",
     "hapi": "^16.0.2",
     "hoek": "^4.1.0",
     "inert": "^4.1.0",
+    "jquery": "^3.3.1",
     "moment": "^2.17.1",
+    "node-sass": "^4.9.3",
+    "npm": "^6.4.1",
+    "popper.js": "^1.14.4",
     "pug": "^2.0.0-beta6",
     "sequelize": "^3.28.0",
-    "slug": "^0.9.1",
     "sqlite3": "^3.1.8",
     "vision": "^4.1.1"
   },
@@ -36,7 +40,7 @@
     "concise-cli": "^0.4.1",
     "concise-utils": "^1.0.0",
     "concise.css": "^4.1.2",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^3.0.0",
     "jake": "^8.0.15",
     "livereload": "^0.6.0",
     "nodemon": "^1.11.0"
