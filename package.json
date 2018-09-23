@@ -21,6 +21,7 @@
   "dependencies": {
     "bootstrap": "^4.1.2",
     "browserslist": "^3.2.8",
+    "cryptiles": "^4.1.2",
     "dotenv": "^2.0.0",
     "hapi": "^16.0.2",
     "hoek": "^4.1.0",
