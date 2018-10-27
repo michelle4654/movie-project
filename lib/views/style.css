@@ -1,0 +1,33 @@
+.button1 {
+    background-color #008CBA; /* Green */
+    border: prgb(128, 12, 31);
+    color: rgb(128, 12, 31);
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 4px;
+    cursor: pointer;
+    margin: 0px 0px; 
+    position:relative;
+    top:50%; 
+    left:35%;
+}
+
+.button2 {
+    background-color #008CBA; /* Green */
+    border: prgb(128, 12, 31);
+    color: rgb(128, 12, 31);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 0px 0px; 
+    position:relative;
+    top:0%; 
+    left:05%;
+}
