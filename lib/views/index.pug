@@ -9,9 +9,12 @@ html(lang='en')
             include style.css
     block intro#main-block
         body(style="background-color:powderblue;")
-        h1(style="color:purple;font-size:120px;font-family:'Impact', sans-serif;text-align:center;")=title
-        hr
-        p(style="color:purple;font-size:40px;font-family:'Impact',sans-serif;text-align:center;")=description
-        hr
-        img.className#IdName(src=image)
+        .container.left
+            img.className#IdName(class="one",src=image,style='float: left;')
+        .container.right
+            h1(style="color:purple;font-size:100px;font-family:'Impact', sans-serif;text-align:center;")=title
+            hr
+            p(style="color:purple;font-size:37px;font-family:'Impact',sans-serif;text-align:center;")=description
+            
+        //img.className#IdName(src=image)
         button(class = "button2" onClick = "window.location.href='/watchthis'") I don't want to fucking watch this, give me something else
