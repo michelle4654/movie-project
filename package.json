@@ -31,9 +31,9 @@
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
-    "npm": "^6.9.0",
+    "npm": "^6.11.3",
     "popper.js": "^1.15.0",
-    "pug": "^2.0.0-beta6",
+    "pug": "^2.0.4",
     "sequelize": "^6.0.0",
     "sqlite3": "^3.1.8",
     "unirest": "^0.6.0",
@@ -46,7 +46,7 @@
     "concise.css": "^4.1.2",
     "gulp-sass": "^3.0.0",
     "jake": "^8.1.1",
-    "livereload": "^0.8.0",
-    "nodemon": "^1.19.1"
+    "livereload": "^0.8.1",
+    "nodemon": "^1.19.2"
   }
 }
